@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0398fc"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAMBAL KUY!"
+            android:fontFamily="sans-serif-black"
+            android:textSize="45dp"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:text="Solusi darurat mencari outlet tambal ban/isi angin"
+            />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:hint="Username"
+            />
+
+         <EditText
+            android:layout_width="250dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:hint="Username"
+             />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="15dp"
+            android:layout_marginTop="50dp"
+            android:background="#24d44a"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Daftar disini"
+            android:background="#fff"
+    </LinearLayout>
+
+</LinearLayout>
